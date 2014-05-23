@@ -37,11 +37,11 @@
 
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
-            <ListBox Grid.Row="0" x:Name="KListFish"  ItemsSource="{Binding ListFish}" SelectedItem="{Binding select, Mode=TwoWay}" IsSynchronizedWithCurrentItem="False" Margin="0,0,0,-74" Grid.RowSpan="2" MouseEnter="ListBox_MouseEnter" SelectionChanged="KListFish_SelectionChanged">
+            <ListBox Grid.Row="0" x:Name="KListFish"  ItemsSource="{Binding ListFish}" SelectedItem="{Binding select, Mode=TwoWay}" IsSynchronizedWithCurrentItem="False" MouseEnter="ListBox_MouseEnter" SelectionChanged="KListFish_SelectionChanged">
                 <ListBox.ItemTemplate>
                     <DataTemplate>
                         <StackPanel>
-                            <TextBlock Text="{Binding Name}" Style="{StaticResource PhoneTextGroupHeaderStyle}"></TextBlock>
+                            <TextBlock Text="{Binding Name}" FontSize="30"></TextBlock>
                           
                         </StackPanel>
                     </DataTemplate>

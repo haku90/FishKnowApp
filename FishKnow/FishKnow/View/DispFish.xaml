@@ -17,7 +17,7 @@
             <shell:ApplicationBarIconButton IconUri="/img/sch.png" Text="Szukaj"/>
 
             <shell:ApplicationBar.MenuItems>
-                <shell:ApplicationBarMenuItem Text="Menu" Click="ApplicationBarMenuItem_Click_1" />
+                <shell:ApplicationBarMenuItem Text="Menu" Click="ApplicationBarMenuItem_Click_2" />
                 <shell:ApplicationBarMenuItem Text="Lista A-Z" Click="ApplicationBarMenuItem_Click_1"  />
             </shell:ApplicationBar.MenuItems>
         </shell:ApplicationBar>
